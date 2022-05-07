@@ -32,7 +32,8 @@
 - Toán tử gán: += -= *= /= %=
 - Toán tử logic: ! || &&
 7 Collections in dart: List, Set, Map
-- List:
+- List: 
+          + kiểm tra độ dài list: length
           + khai báo: var list = [1,2,3]
           + var list = List()
           + var list = List<DataType>()
