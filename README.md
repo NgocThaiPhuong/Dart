@@ -1,3 +1,4 @@
+                    #NHỮNG KIẾN THỨC MÌNH TÌM HIỂU QUA Ở NHỮNG TRANG NHƯ 200lab, geeksforgeeks
 # Dart
 - runTimeType: kiểm tra kiểu dữ liệu của biến
 - 
@@ -41,7 +42,9 @@
    + thêm nhiều phần tử addAll
    + Xóa 1 phần tử: removeAt(int)
    + xóa tất cả các phần tử: clear
-          ---- tới phần map()-----
+   - map(): map tất cả các phần tử của list vào biểu thức hoặc câu lệnh
+          + myList.map((iterator) => statement)
+          + Iterator có thể là bất cứ cái tên nào. Nó cơ bản là một biến lấy giá trị của từng phần tử một trong danh sách
 
 
 
