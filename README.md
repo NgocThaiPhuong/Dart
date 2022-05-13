@@ -33,7 +33,7 @@
 - Toán tử gán: += -= *= /= %=
 - Toán tử logic: ! || &&
 7 Collections in dart: List, Set, Map
-- List: 
+- List[]: 
           + kiểm tra độ dài list: length
           + khai báo: var list = [1,2,3]
           + var list = List()
@@ -45,6 +45,42 @@
    - map(): map tất cả các phần tử của list vào biểu thức hoặc câu lệnh
           + myList.map((iterator) => statement)
           + Iterator có thể là bất cứ cái tên nào. Nó cơ bản là một biến lấy giá trị của từng phần tử một trong danh sách
-
-
-
+- Set{}:
+    khai báo set:
+        + var set = {};
+        + var set = <datatype>{};
+    thêm 1 phần tử vào set: add
+    thêm nhiều phần tử vào set: addAll
+    độ dài set: length
+    xóa các phần tử ra khỏi set: remove
+    kiểm tra phần tử hoặc nhiều phần tử nào đó có trong một set hay không: contains hoặc containsAll
+    phép giao giữa 2 set: set1.intersection(set2)
+    phép hợp 2 set: set1.union(set2)
+- Map()  
+    khai báo Map:
+              var capitals = {
+              'United States' : 'Washington D.C.',
+              'England' : 'London',
+              'China' : 'Beijing',
+              'Germany' : 'Berlin',
+              'Nigeria' : 'Abuja',
+              'Egypt' : 'Cairo',
+              'New Zealand' : 'Wellington'
+            };
+    var numbers = Map<int, String>();
+    thêm cặp key/value: 
+                          var numbers = Map<int, String>();
+                          numbers[1] = 'one';
+                          numbers[2] = 'two';
+                          numbers[3] = 'three';
+    tính số lượng cặp key/values trong Map: length
+    truy vấn value bằng cách sử dụng key bên trong dấu []
+    bạn có thể kiểm tra Map đó có key bạn muốn tìm hay không bằng cách sử dụng containsKey
+    truy xuất tất cả các key và value của Map bằng cách sử dụng: keys và values
+    bạn có thể xóa 1 key/value bằng cách sử dụng: remove.
+  
+  
+  
+  
+  
+  
